@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import TechIcons from "./components/TechIcon";
 
@@ -17,7 +16,7 @@ export default function Home() {
             <h1 className="text-3xl font-bold">Greetings!! My Name is Stephen Karani</h1>
             <p className="mt-4">
               Alias <span className="font-mono">Ox_zile</span> from Nairobi, Kenya who is passionate programmer and also
-              a computer techie who into privacy, freedom and open source, Oh ! also a repair man who's into Linux and
+              a computer techie who into privacy, freedom and open source, Oh ! also a repair man who is into Linux and
               computer architecture for my views,current options,thoughts, documentation on my projects check out my
               blog!
             </p>
