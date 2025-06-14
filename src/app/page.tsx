@@ -11,32 +11,21 @@ export default function Home() {
       <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 space-y-12">
         <div className="bg-gray-800 shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 flex justify-center">
-            <Image
-              src="/about.jpg"
-              alt="Profile"
-              width={150}
-              height={150}
-              className="rounded-full"
-            />
+            <Image src="/about.jpg" alt="Profile" width={150} height={150} className="rounded-full" />
           </div>
           <div className="md:w-1/2 mt-8 md:ml-8 text-white">
-            <h1 className="text-3xl font-bold">
-              Greetings!! My Name is Stephen Karani
-            </h1>
+            <h1 className="text-3xl font-bold">Greetings!! My Name is Stephen Karani</h1>
             <p className="mt-4">
-              Alias <span className="font-mono">Ox_zile</span> from Nairobi,
-              Kenya who is passionate programmer and also a computer techie who
-              into privacy, freedom and open source, Oh ! also a repair man
-              who's into Linux and computer architecture for my views,current
-              options,thoughts, documentation on my projects check out my blog!
+              Alias <span className="font-mono">Ox_zile</span> from Nairobi, Kenya who is passionate programmer and also
+              a computer techie who into privacy, freedom and open source, Oh ! also a repair man who's into Linux and
+              computer architecture for my views,current options,thoughts, documentation on my projects check out my
+              blog!
             </p>
             <hr className="my-4 border-r-gray-700" />
           </div>
         </div>
         <div className="mt-2">
-          <h2 className="text-xl font-bold mb-7">
-            Languages and Frameworks I use on the daily:
-          </h2>
+          <h2 className="text-xl font-bold mb-7">Languages and Frameworks I use on the daily:</h2>
           <TechIcons />
         </div>
         <hr className="my-4 border-r-gray-700" />
