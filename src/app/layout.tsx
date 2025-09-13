@@ -20,6 +20,28 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "website about me and the stuff l do",
+  openGraph: {
+    title: "Portfolio",
+    description: "website about me and the stuff l do",
+    url: "https://stephen-karani.0xzile.sbs",
+    siteName: "Stephen Karani - Portfolio",
+    images: [
+      {
+        url: "/Preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio preview image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Portfolio",
+    description: "website about me and the stuff l do",
+    images: ["/Preview.jpg"],
+  },
 };
 
 export default function RootLayout({
