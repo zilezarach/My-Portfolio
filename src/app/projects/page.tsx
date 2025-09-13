@@ -32,7 +32,7 @@ const projects: Project[] = [
     description:
       "A lightning-fast movie/social/games video streamer with ultra-fast downloads.",
     githubUrl: "https://streamzile.0xzile.sbs",
-    imageSrc: "/projects/zilewatch.png",
+    imageSrc: "/projects/zilewatch.jpg",
     tech: [
       { icon: <SiReact size={20} className="text-cyan-400" />, name: "React" },
       {
@@ -74,7 +74,7 @@ const projects: Project[] = [
     description:
       "A scalable POS & e-commerce system ideal for growing businesses with extensive features like Inventory management",
     githubUrl: "https://zaccpos.0xzile.sbs",
-    imageSrc: "/projects/zaccpos.png",
+    imageSrc: "/projects/zacc.jpg",
     tech: [
       { icon: <SiReact size={20} className="text-cyan-400" />, name: "React" },
       {
@@ -108,7 +108,7 @@ const projects: Project[] = [
     description:
       "A Garage management system that suitable for Automotive Repair shops providing accurate and important data from financies to daily business activities",
     githubUrl: "https://gms.0xzile.sbs",
-    imageSrc: "/projects/GMS.png",
+    imageSrc: "/projects/Gms.jpg",
     tech: [
       {
         icon: <SiReact size={20} className="text-cyan-400" />,
